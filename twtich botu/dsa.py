@@ -30,11 +30,4 @@ def get_top_rank(top_size):
 
     return display_column_names, column_names, players
 
-#print(get_current_act("xpremiumtr#tr1"))
-print(get_top_rank("xpremiumtr#tr1"))
-
-request_url = f"https://br.api.riotgames.com/val/ranked/v1/leaderboards/by-act/{[xpremiumtr][tr1]}
-
-https://api.henrikdev.xyz/valorant/v1/mmr/eu/xpremiumtr/tr1
-
 $(eval currenttierpatched=$(urlfetch json https://api.henrikdev.xyz/valorant/v1/mmr/eu/59hz fatiikk/peek).data.currenttierpatched)
